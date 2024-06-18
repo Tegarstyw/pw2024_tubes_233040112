@@ -1,0 +1,31 @@
+span {
+  color: red;
+}
+.main-article-content {
+position: absolute;
+bottom: 20px;
+left: 20px;
+right: 20px;
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
+padding: 10px;
+border-radius: 8px;
+}
+.side-article img {
+width: 150px;
+height: 100px;
+object-fit: cover;
+border-radius: 8px;
+}
+.side-article {
+margin-bottom: 20px;
+}
+.side-article .card-body {
+padding: 10px;
+}
+.main-article {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+}
